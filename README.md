@@ -1,6 +1,6 @@
 # Spilastokkurinn
 
-Leikur í stíl Jet Lag: The Game. 20 spil liggja á grúfu (stokkuð í hvert sinn sem byrjað er upp á nýtt). Smellt er á spil og þraut opnast; sé hún leyst rétt snýst spilið við. Spilið er **bölvun**, **verkefni** eða **spurning**; verkefni og spurningar gefa 1–3 stig þegar þau eru merkt lokið. Staðan vistast í vafranum.
+Leikur í stíl Jet Lag: The Game. 20 spil liggja á grúfu (stokkuð í hvert sinn sem byrjað er upp á nýtt). Smellt er á spil og þraut opnast; sé hún leyst rétt snýst spilið við. Spilið er **bölvun**, **verkefni** eða **spurning**; verkefni og spurningar gefa 1–3 stig þegar þau eru merkt lokið. Staðan vistast í vafranum. Nemendur eiga alltaf að taka skjámynd af spili sem þeir snúa við og sýna kennara ef beðið er um það; þetta kemur fram á síðunni og á hverju opnu spili.
 
 Vefurinn er hreinn HTML/CSS/JavaScript og þarf hvorki netþjón né nettengingu. Opnaðu `index.html` í vafra, eða hýstu möppuna, til dæmis á GitHub Pages.
 

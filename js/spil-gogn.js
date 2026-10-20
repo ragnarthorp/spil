@@ -8,11 +8,11 @@
            Nýjar tegundir þrauta má skrá í SPIL_THRAUTIR í js/spil.js. */
 window.SPIL = [
   { tegund: "verkefni", stig: 1, titill: "Mæld skref", texti: "Teljið hve mörg skref eru frá innganginum að næsta tré og takið mynd af trénu.",
-    thraut: { gerd: "svar", spurning: "Hvað er 7 × 8?", svor: ["56"] } },
+    thraut: { gerd: "svar", spurning: "Hvað hét gamli maðurinn í fjallaþorpinu?", svor: ["Ernesto", "Ernestó"] } },
   { tegund: "spurning", stig: 1, takn: "hitamaelir", titill: "Hitamælir", texti: "Finnið kennara. Hann nefnir borg í heiminum. Þið eigið að giska hversu heitt er þar núna. Ef þið eruð innan við 5 °C frá réttu svari fáið þið stig. (Þetta má endurtaka en ekki með sama kennara.)",
-    thraut: { gerd: "svar", spurning: "Við hvaða hitastig (°C) frýs vatn?", svor: ["0", "0°", "0 °c", "0°c", "núll"] } },
+    thraut: { gerd: "svar", spurning: "Hvernig dýr notaði stíginn ofan við bæinn í sögunni?", svor: ["geit", "geitur", "geitin", "geiturnar"] } },
   { tegund: "bolvun", takn: "nota", titill: "Bölvun söngsins", texti: "Þið verðið að söngla allt sem þið segið og fá kennara til að syngja líka til að aflétta bölvuninni. Bölvunin afléttist af sjálfu sér eftir 5 mínútur.",
-    thraut: { gerd: "svar", spurning: "Hver er efnatákn súrefnis?", svor: ["o", "o2"] } },
+    thraut: { gerd: "svar", spurning: "Þrír kennarar í Úllónolló eru fæddir sama árið. Hvaða ár?", svor: ["1976"] } },
   { raudt: true, tegund: "verkefni", stig: 1, takn: "gegnsaett", titill: "Gegnsætt", texti: "Hafið hluta farartækis ykkar gegnsæjan.",
     thraut: { gerd: "svar", spurning: "Hve margar reikistjörnur eru í sólkerfinu?", svor: ["8", "átta"] } },
   { tegund: "spurning", stig: 1, takn: "skaeri", titill: "Skæri, blað, steinn", texti: "Sigrið kennara í skæri, blað, steinn. Ef þið tapið má reyna aftur, en bara með nýjum kennara.",

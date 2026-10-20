@@ -1,6 +1,7 @@
 /* Spilastokkurinn: 20 spil.
    tegund: "bolvun" | "verkefni" | "spurning"
    stig:   1–3 (bölvanir gefa ekki stig)
+   raudt:  true ef spilið á að hafa rauða bakhlið (4 spil)
    thraut: þrautin sem þarf að leysa til að snúa spilinu við.
            Í bili er hver þraut spurning með einu réttu svari (svor = leyfileg svör).
            Nýjar tegundir þrauta má skrá í SPIL_THRAUTIR í js/spil.js. */
@@ -11,7 +12,7 @@ window.SPIL = [
     thraut: { gerd: "svar", spurning: "Við hvaða hitastig (°C) frýs vatn?", svor: ["0", "0°", "0 °c", "0°c", "núll"] } },
   { tegund: "bolvun", titill: "Bölvun þokunnar", texti: "Liðið sem dregur þetta spil má ekki nota kort í 10 mínútur.",
     thraut: { gerd: "svar", spurning: "Hver er efnatákn súrefnis?", svor: ["o", "o2"] } },
-  { tegund: "verkefni", stig: 3, titill: "Laufasafn", texti: "Finnið fimm ólíkar tegundir laufblaða og raðið þeim frá minnsta til stærsta.",
+  { raudt: true, tegund: "verkefni", stig: 3, titill: "Laufasafn", texti: "Finnið fimm ólíkar tegundir laufblaða og raðið þeim frá minnsta til stærsta.",
     thraut: { gerd: "svar", spurning: "Hve margar reikistjörnur eru í sólkerfinu?", svor: ["8", "átta"] } },
   { tegund: "spurning", stig: 1, titill: "Ratsjá", texti: "Er hitt liðið innan 500 metra frá ykkur? Svarið verður að vera já eða nei.",
     thraut: { gerd: "svar", spurning: "Hvað er 144 deilt með 12?", svor: ["12", "tólf"] } },
@@ -19,7 +20,7 @@ window.SPIL = [
     thraut: { gerd: "svar", spurning: "Hvaða reikistjarna er næst sólinni?", svor: ["merkúr", "merkur"] } },
   { tegund: "bolvun", titill: "Bölvun hægagangsins", texti: "Liðið má aðeins ganga, ekki hlaupa, þar til það hefur leyst næstu þraut.",
     thraut: { gerd: "svar", spurning: "Hver er höfuðborg Noregs?", svor: ["osló", "oslo"] } },
-  { tegund: "spurning", stig: 3, titill: "Ljósmynd", texti: "Biðjið hitt liðið að senda mynd af því hæsta sem það sér beint fram undan.",
+  { raudt: true, tegund: "spurning", stig: 3, titill: "Ljósmynd", texti: "Biðjið hitt liðið að senda mynd af því hæsta sem það sér beint fram undan.",
     thraut: { gerd: "svar", spurning: "Hvað heitir stærsti jökull Íslands?", svor: ["vatnajökull"] } },
   { tegund: "verkefni", stig: 1, titill: "Vindátt", texti: "Ákvarðið vindáttina án síma og skrifið hana niður.",
     thraut: { gerd: "svar", spurning: "Hve margar gráður eru í rétthyrndu horni?", svor: ["90", "90°", "níutíu"] } },
@@ -27,13 +28,13 @@ window.SPIL = [
     thraut: { gerd: "svar", spurning: "Hvaða lofttegund anda plöntur að sér við ljóstillífun?", svor: ["koltvísýringur", "co2", "koldíoxíð"] } },
   { tegund: "bolvun", titill: "Bölvun þagnarinnar", texti: "Næstu 5 mínútur má liðið aðeins tjá sig með bendingum.",
     thraut: { gerd: "svar", spurning: "Hvað er 15 % af 200?", svor: ["30", "þrjátíu"] } },
-  { tegund: "verkefni", stig: 3, titill: "Hæðarmæling", texti: "Áætlið hæð hússins sem þið standið við með skugga og staf.",
+  { raudt: true, tegund: "verkefni", stig: 3, titill: "Hæðarmæling", texti: "Áætlið hæð hússins sem þið standið við með skugga og staf.",
     thraut: { gerd: "svar", spurning: "Hve margir sentímetrar eru í einum metra?", svor: ["100", "hundrað"] } },
   { tegund: "spurning", stig: 1, titill: "Fjarlægð", texti: "Spyrjið hitt liðið hvort það sé nær skóla eða sundlaug.",
     thraut: { gerd: "svar", spurning: "Hvert er minnsta frumtalan?", svor: ["2", "tveir"] } },
   { tegund: "verkefni", stig: 2, titill: "Fuglatalning", texti: "Teljið alla fugla sem þið sjáið á þremur mínútum og greinið tvær tegundir.",
     thraut: { gerd: "svar", spurning: "Hvað heitir fræðigreinin um veður?", svor: ["veðurfræði"] } },
-  { tegund: "bolvun", titill: "Bölvun áttavitans", texti: "Liðið verður að fara 100 metra í norður áður en það heldur áfram.",
+  { raudt: true, tegund: "bolvun", titill: "Bölvun áttavitans", texti: "Liðið verður að fara 100 metra í norður áður en það heldur áfram.",
     thraut: { gerd: "svar", spurning: "Hvað er 9²?", svor: ["81"] } },
   { tegund: "spurning", stig: 3, titill: "Armar", texti: "Biðjið hitt liðið að nefna næsta safn við sig.",
     thraut: { gerd: "svar", spurning: "Hvaða frumefni hefur efnatáknið Fe?", svor: ["járn"] } },

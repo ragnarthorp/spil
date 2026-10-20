@@ -86,7 +86,7 @@
       b.setAttribute("role", "listitem");
       b.setAttribute("aria-label", snuid ? "Spil " + (saeti + 1) + ": " + HEITI[s.tegund] + ", " + s.titill : "Spil " + (saeti + 1) + ", á grúfu");
       b.innerHTML =
-        '<div class="side back"><div class="emblem"><span>?</span></div><span class="num">' + (saeti + 1) + "</span></div>" +
+        '<div class="side back' + (s.raudt ? " raudt" : "") + '"><div class="emblem"><span>?</span></div><span class="num">' + (saeti + 1) + "</span></div>" +
         framhlid(s);
       b.addEventListener("click", () => (stada.snuid.includes(saeti) ? syna(saeti) : opnaThraut(saeti)));
       deck.appendChild(b);

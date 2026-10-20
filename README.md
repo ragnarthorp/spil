@@ -7,6 +7,6 @@ Vefurinn er hreinn HTML/CSS/JavaScript og þarf hvorki netþjón né nettengingu
 ## Skrár
 
 - `index.html`: síðan
-- `js/spil-gogn.js`: spilin 20 og þrautirnar (sem stendur sýnidæmi)
+- `js/spil-gogn.js`: spilin 20 og þrautirnar (sem stendur sýnidæmi); `raudt: true` gefur spili rauða bakhlið
 - `js/spil.js`: viðmótið; nýjar tegundir þrauta eru skráðar í `SPIL_THRAUTIR`
 - `css/spil.css`: útlit

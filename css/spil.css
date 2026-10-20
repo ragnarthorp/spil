@@ -47,6 +47,7 @@ main{max-width:1200px;margin:0 auto;padding:22px clamp(16px,4vw,40px) 48px}
   repeating-linear-gradient(45deg,rgba(255,255,255,.05) 0 8px,transparent 8px 16px),
   linear-gradient(160deg,var(--back1),var(--back2));
   border:3px solid var(--face);display:grid;place-items:center}
+.back.raudt{--back1:#c8242f;--back2:#7e1219}
 .back::before{content:"";position:absolute;inset:7px;border:2px solid rgba(246,195,59,.7);border-radius:9px}
 .back .emblem{width:62%;aspect-ratio:1;border-radius:50%;background:var(--gold);display:grid;place-items:center;transform:rotate(-8deg);box-shadow:0 0 0 5px var(--back2),0 0 0 7px var(--gold)}
 .back .emblem span{font:italic 900 clamp(18px,3.6vw,34px)/1 var(--cond);color:var(--back2);text-transform:uppercase}

@@ -18,7 +18,7 @@ window.SPIL = [
   { tegund: "spurning", stig: 1, takn: "skaeri", titill: "Skæri, blað, steinn", texti: "Sigrið kennara í skæri, blað, steinn. Ef þið tapið má reyna aftur, en bara með nýjum kennara.",
     thraut: { gerd: "svar", spurning: "Hvað er 144 deilt með 12?", svor: ["12", "tólf"] } },
   { tegund: "verkefni", stig: 2, takn: "steinn", titill: "Steinn lifnar við", texti: "Finnið stein þyngri en 100 g og teiknið eða málið hann svo hann breytist í persónu eða dýr.",
-    thraut: { gerd: "svar", spurning: "Hvaða reikistjarna er næst sólinni?", svor: ["merkúr", "merkur"] } },
+    thraut: { gerd: "svar", spurning: "Hvaða reikistjarna er næst sólinni?", svor: ["Merkúr", "Merkúríus", "Merkur"] } },
   { tegund: "bolvun", takn: "fotspor", titill: "Bölvun hægagangsins", texti: "Næstu 5 mínútur megið þið bara taka hænuskref.",
     thraut: { gerd: "svar", spurning: "Hver er höfuðborg Noregs?", svor: ["osló", "oslo"] } },
   { raudt: true, tegund: "verkefni", stig: 1, takn: "fani", titill: "Fáni", texti: "Setjið fána á farartækið ykkar.",

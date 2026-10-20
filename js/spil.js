@@ -61,12 +61,28 @@
       [1, 2, 3].map(i => '<i class="' + (i <= n ? "" : "off") + '"></i>').join("") + "</span>";
   }
 
+  /* Táknmyndir á framhlið spilanna (24×24, línuteikning). */
+  const TAKN = {
+    bolvun: '<path d="M13 2 4 14h7l-1 8 9-12h-7z"/>',
+    verkefni: '<rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4V2.5h6V4M8.5 11l2 2 4-4M8.5 17h7"/>',
+    spurning: '<path d="M4 5h16v11H10l-5 4v-4H4z"/><path d="M10 8.5a2 2 0 1 1 2.8 1.8c-.5.3-.8.7-.8 1.2v.5M12 14v.01"/>',
+    gegnsaett: '<rect x="3" y="5" width="18" height="14" rx="2"/><path d="M7 15l4-6M11 15l4-6M15 15l2-3"/>',
+    fani: '<path d="M5 22V3"/><path d="M5 4h12l-3 4 3 4H5"/>',
+    hauskupa: '<path d="M12 3a8 8 0 0 0-8 8c0 2.6 1.3 4.3 3 5.3V20h10v-3.7c1.7-1 3-2.7 3-5.3a8 8 0 0 0-8-8z"/><circle cx="9" cy="11.5" r="1.8"/><circle cx="15" cy="11.5" r="1.8"/><path d="M12 14.5l-1 1.5h2zM10 20v-2M14 20v-2"/>',
+    myndavel: '<path d="M3 8h4l2-3h6l2 3h4v11H3z"/><circle cx="12" cy="13" r="3.5"/>'
+  };
+
+  function takn(nafn) {
+    return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + (TAKN[nafn] || "") + "</svg>";
+  }
+
   function framhlid(s) {
     const stig = s.tegund === "bolvun" ? "Engin stig" : s.stig + " stig";
-    return '<div class="side face ' + s.tegund + '">' +
+    return '<div class="side face ' + s.tegund + (s.raudt ? " raudt" : "") + '">' +
       '<div class="band"><span>' + HEITI[s.tegund] + "</span>" + pips(s.stig) + "</div>" +
       "<h3>" + esc(s.titill) + "</h3>" +
       "<p>" + esc(s.texti) + "</p>" +
+      '<div class="art">' + takn(s.takn || s.tegund) + "</div>" +
       '<div class="foot"><span>' + stig + "</span><span>" + (s.tegund === "bolvun" ? "☠" : "★") + "</span></div>" +
       "</div>";
   }

@@ -69,7 +69,21 @@
     gegnsaett: '<rect x="3" y="5" width="18" height="14" rx="2"/><path d="M7 15l4-6M11 15l4-6M15 15l2-3"/>',
     fani: '<path d="M5 22V3"/><path d="M5 4h12l-3 4 3 4H5"/>',
     hauskupa: '<path d="M12 3a8 8 0 0 0-8 8c0 2.6 1.3 4.3 3 5.3V20h10v-3.7c1.7-1 3-2.7 3-5.3a8 8 0 0 0-8-8z"/><circle cx="9" cy="11.5" r="1.8"/><circle cx="15" cy="11.5" r="1.8"/><path d="M12 14.5l-1 1.5h2zM10 20v-2M14 20v-2"/>',
-    myndavel: '<path d="M3 8h4l2-3h6l2 3h4v11H3z"/><circle cx="12" cy="13" r="3.5"/>'
+    myndavel: '<path d="M3 8h4l2-3h6l2 3h4v11H3z"/><circle cx="12" cy="13" r="3.5"/>',
+    steinn: '<path d="M4 18c0-5 3.5-9 8-9s8 3.5 8 8c0 1.5-1 2.5-2.5 2.5h-11C5 19.5 4 19 4 18z"/><path d="M10 13.5v.01M14.5 13.5v.01M10.5 16.2c1 .7 2.5.7 3.5 0"/>',
+    bio: '<rect x="3" y="9" width="18" height="11" rx="1"/><path d="M3 5h18v4H3zM8 5 6 9M13 5l-2 4M18 5l-2 4"/>',
+    fugl: '<path d="M3 10c1.5 0 2.8.7 3.6 1.8C7.5 8.5 9.6 6 12.5 6c2.2 0 3.8 1.5 4 3.5L21 10l-4.5 1.2c-.3 4.2-3.3 7.3-7.5 7.3-2.6 0-4.6-1-5.8-2.8 2.6 0 4.6-1 5.6-3"/><path d="M13.5 9v.01"/>',
+    pensill: '<path d="M18 3l3 3-9 9-3-3z"/><path d="M9 12c-3 0-4 2-4 4s-1 3-2 4c4 0 8-1 8-5"/>',
+    steinturn: '<ellipse cx="12" cy="19" rx="7" ry="2.5"/><ellipse cx="12" cy="14.5" rx="5" ry="2"/><ellipse cx="12" cy="10.5" rx="3.5" ry="1.8"/><ellipse cx="12" cy="7" rx="2.5" ry="1.5"/><ellipse cx="12" cy="4" rx="1.5" ry="1"/>',
+    hitamaelir: '<path d="M10 14V5a2 2 0 0 1 4 0v9a4 4 0 1 1-4 0z"/><path d="M12 9v6.5"/><circle cx="12" cy="17" r="1.5"/>',
+    skaeri: '<circle cx="6" cy="18" r="3"/><circle cx="18" cy="18" r="3"/><path d="M8.2 16 19 4M15.8 16 5 4"/>',
+    skutla: '<path d="M22 3 2 11l7 3 2 7 3-5 5 3z"/><path d="M9 14 22 3"/>',
+    bolti: '<circle cx="12" cy="12" r="9"/><path d="M12 8l3.5 2.5-1.3 4H9.8l-1.3-4zM12 8V3.5M15.5 10.5l4-1.5M14.2 14.5l2.5 3.5M9.8 14.5l-2.5 3.5M8.5 10.5l-4-1.5"/>',
+    okei: '<path d="M7 11v9H4v-9zM7 11l4-8c1.5 0 2.5 1 2.5 2.5L13 9h6a2 2 0 0 1 2 2.3l-1.2 7a2 2 0 0 1-2 1.7H7"/>',
+    hjarta: '<path d="M12 20s-8-5-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 9c0 6-8 11-8 11z"/>',
+    nota: '<path d="M9 18V5l11-2v13"/><circle cx="6.5" cy="18" r="2.5"/><circle cx="17.5" cy="16" r="2.5"/>',
+    fotspor: '<path d="M12 21v-9M12 12 6.5 5M12 12l5.5-7M12 12V3"/>',
+    hond: '<path d="M8 13V5a1.5 1.5 0 0 1 3 0v6M11 11V3.5a1.5 1.5 0 0 1 3 0V11M14 11V5a1.5 1.5 0 0 1 3 0v6M17 10a1.5 1.5 0 0 1 3 0v4a7 7 0 0 1-7 7h-1a6 6 0 0 1-5-2.7l-3-4.8a1.5 1.5 0 0 1 2.5-1.6L8 13"/>'
   };
 
   function takn(nafn) {

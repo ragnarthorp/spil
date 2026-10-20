@@ -183,6 +183,16 @@
     setTimeout(() => syna(saeti), 750);
   }
 
+  function snuaTilBaka(saeti) {
+    stada.snuid = stada.snuid.filter(x => x !== saeti);
+    stada.lokid = stada.lokid.filter(x => x !== saeti);
+    vista();
+    const b = deck.children[saeti];
+    b.classList.remove("flipped", "done");
+    b.setAttribute("aria-label", "Spil " + (saeti + 1) + ", á grúfu");
+    uppfaeraTolur();
+  }
+
   /* Stækkað spil */
   const view = $("view");
 
@@ -206,6 +216,15 @@
       });
       a.appendChild(k);
     }
+    const aftur = document.createElement("button");
+    aftur.className = "btn ghost";
+    aftur.textContent = "Snúa aftur á grúfu";
+    aftur.addEventListener("click", () => {
+      if (lokid && !confirm("Spilið er merkt lokið. Ef því er snúið aftur á grúfu dragast " + s.stig + " stig frá. Halda áfram?")) return;
+      view.close();
+      snuaTilBaka(saeti);
+    });
+    a.appendChild(aftur);
     const loka = document.createElement("button");
     loka.className = "btn ghost";
     loka.textContent = "Loka";

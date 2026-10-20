@@ -42,7 +42,7 @@ window.SPIL = [
   { tegund: "verkefni", stig: 2, takn: "pensill", titill: "Listamaður", texti: "Er listamaður í hópnum? Látið hann teikna mynd af París með nautinu sínu.",
     thraut: { gerd: "svar", spurning: "Hve margar mínútur eru í 3 klukkustundum?", svor: ["180"] } },
   { tegund: "spurning", stig: 1, takn: "hjarta", titill: "Hrós", texti: "Hrósið kennara fyrir eitthvað sem þið meinið í alvöru.",
-    thraut: { gerd: "svar", spurning: "Hvað heitir hæsta fjall Íslands?", svor: ["hvannadalshnúkur", "hvannadalshnjúkur"] } },
+    thraut: { gerd: "svar", spurning: "Hvað heitir hæsta fjall Íslands?", svor: ["Hvannadalshnjúkur", "Hvannadalshnúkur"] } },
   { tegund: "verkefni", stig: 2, takn: "steinturn", titill: "Steinturninn", texti: "Látið 5 steina verða að turni sem stendur í að minnsta kosti 30 sekúndur. Takið myndband.",
     thraut: { gerd: "svar", spurning: "Hvað er 2 + 2 × 2?", svor: ["6", "sex"] } },
   { tegund: "bolvun", takn: "hond", titill: "Bölvun vinstri handarinnar", texti: "Næstu 5 mínútur má aðeins nota aðra höndina í liðinu ykkar.",
